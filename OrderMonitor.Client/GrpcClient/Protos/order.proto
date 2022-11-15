@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcClient";
+
+package Order;
+
+service OrderMonitor {  
+  rpc CreateOrders(ClientInfo) returns (OrderModel);
+  rpc GetOrderStream(ClientInfo) returns(stream OrderModel);
+}
+
+message ClientInfo {
+	string UserName = 1;
+}
+message OrderModel {
+	string OrderId = 1;
+	string Symbol = 2;
+	string Side = 3;
+	string Client = 4;
+	double LivePrice = 5;
+	double Qty = 6;
+	double Total = 7;
+}
