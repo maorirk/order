@@ -1,0 +1,8 @@
+OrderMonitor.Client/ConsoleApp1/
+OrderMonitor.Client/GrpcClient/bin/
+OrderMonitor.Client/GrpcClient/obj/
+OrderMonitor.Client/OrderMonitor/obj/
+OrderMonitor.Client/OrderMonitor/bin/
+OrderMonitor.Client/OrderMonitor/obj/
+OrderMonitor.Client/OrderMonitor.Server/obj/
+OrderMonitor.Client/OrderMonitor.Server/bin/
